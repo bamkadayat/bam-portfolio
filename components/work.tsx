@@ -27,8 +27,6 @@ export default function Work({
         style={{
           width: "100%",
           maxHeight: "400px",
-          position: "relative",
-          overflow: "hidden",
         }}
       >
         <Image

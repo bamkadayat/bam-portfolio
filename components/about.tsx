@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="container">
       <div className="page-margin flex items-center gap-4">
-        <ImProfile color="FFA324" size={40} />
+        <ImProfile color="#FFA324" size={40} />
         <h1 className="text-3xl md:text-4xl font-bold uppercase tracking-normal leading-normal font-sans">
           About me
         </h1>
