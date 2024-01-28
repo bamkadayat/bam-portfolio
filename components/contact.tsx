@@ -8,7 +8,7 @@ import SubmitBtn from "./submit-btn";
 import { MdContactMail } from "react-icons/md";
 
 export default function Contact() {
-  const [message, setMessage] = useState(null);
+  const [message, setMessage] = useState<string | null>(null);
   return (
     <motion.section
       initial={{

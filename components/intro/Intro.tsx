@@ -17,7 +17,7 @@ export default function Intro() {
             tabIndex={0}
             className="md:text-5xl text-4xl font-bold uppercase tracking-normal leading-normal font-sans"
           >
-            Hello, I'm Bam Kadayat.
+            Hello, I am Bam Kadayat.
           </h1>
 
           <div>

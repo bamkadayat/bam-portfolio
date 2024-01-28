@@ -21,7 +21,7 @@ export default function About() {
           }}
         >
           <p className="text-xl mb-8 mt-4 md:w-[600px]">
-            Hello, I'm Bam Kadayat. As a front-end and UI/UX developer, I
+            Hello, I am Bam Kadayat. As a front-end and UI/UX developer, I
             specialize in designing and building web applications that offer
             engaging user experiences and seamless functionality.
           </p>
@@ -49,7 +49,7 @@ export default function About() {
             <h2 className="text-2xl font-semibold mb-4">UI/UX</h2>
             <p className="font-medium">
               I follow a color theory, basics of UI/UX design principles that
-              focuses on the user's overall experience when interacting with a
+              focuses on the users overall experience when interacting with a
               product. Usability, accessiblity, clarity, simplicity and feedback
               are some of the key elements of UI/UX design.
             </p>
