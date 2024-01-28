@@ -25,7 +25,7 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 header-wrap">
       <nav className="nav container">
         <Link href="/" className="nav__brand">
-          <Image src="logo.svg" width={40} height={40} alt="logo" />
+          <Image src="logo.svg" width={70} height={40} alt="logo" />
         </Link>
         <ul className={`nav__menu ${isActive ? "nav__active" : ""}`}>
           {NavList.map((item, index) => (
