@@ -35,7 +35,7 @@ export default function Work({
           width={500}
           height={400}
           objectFit="cover"
-          alt=""
+          alt={title}
         />
       </div>
 

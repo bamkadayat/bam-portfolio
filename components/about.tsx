@@ -1,6 +1,7 @@
 "use client";
 import { ImProfile } from "react-icons/im";
 import { motion } from "framer-motion";
+import Image from "next/image";
 export default function About() {
   return (
     <div className="container">
@@ -19,12 +20,20 @@ export default function About() {
             duration: 1.2,
             ease: [0.04, 0.62, 0.23, 0.98],
           }}
+          className="flex flex-col md:flex-row items-center justify-between "
         >
           <p className="text-xl mb-8 mt-4 md:w-[600px]">
             Hello, I am Bam Kadayat. As a front-end and UI/UX developer, I
             specialize in designing and building web applications that offer
             engaging user experiences and seamless functionality.
           </p>
+          <Image
+            src="/images/profile.svg"
+            width={150}
+            height={140}
+            alt="profile image"
+            className="justify-self-start"
+          />
         </motion.div>
         <div className="grid md:grid-cols-3 gap-4 mt-6">
           <div className="rounded border border-[#6b450f] p-4">

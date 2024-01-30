@@ -50,32 +50,51 @@ export const experiencesData = [
 
 export const worksData = [
   {
+    title: "Oblinor AS",
+    description:
+      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+    tags: [
+      "Vue js",
+      "TypeScript",
+      "WordPress",
+      "JavaScript",
+      "PHP",
+      "Vuetify",
+      "MySQL",
+      "Figma",
+    ],
+    imageUrl: "/images/oblinor.gif",
+  },
+  {
+    title: "Oblinor AS",
+    description:
+      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+    tags: [
+      "Vue js",
+      "TypeScript",
+      "Vuetify",
+      "Vuex",
+      "PHP",
+      "JavaScript",
+      "MySQL",
+      "Figma",
+    ],
+    imageUrl: "/images/oblinor_dashboard.gif",
+  },
+  {
     title: "BB Utvikling",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["Vue js", "SCSS", "HTML"],
-    imageUrl: "/images/bbutvikling.png",
+    tags: ["Vue js", "SCSS", "HTML", "Figma"],
+    imageUrl: "/images/bbutvikling.gif",
   },
-  {
-    title: "Oblinor AS",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["Vue js", "TypeScript", "WordPress", "JavaScript", "MySQL"],
-    imageUrl: "/images/second.jpg",
-  },
-  {
-    title: "Oblinor AS",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["Vue js", "TypeScript", "WordPress", "JavaScript", "MySQL"],
-    imageUrl: "/images/user-home.png",
-  },
+
   {
     title: "Oblinor backoffice dashboard",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["Vue js", "TypeScript", "Vuetify", "SCSS"],
-    imageUrl: "/images/oblinor-user-graph.png",
+    tags: ["Vue js", "TypeScript", "Vuetify", "SCSS", "Figma"],
+    imageUrl: "/images/trans.gif",
   },
 ] as const;
 
