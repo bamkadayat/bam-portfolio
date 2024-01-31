@@ -79,7 +79,7 @@ export const worksData = [
       "MySQL",
       "Figma",
     ],
-    imageUrl: "/images/oblinor_dashboard.gif",
+    imageUrl: "/images/oblinor-mypage.gif",
   },
   {
     title: "BB Utvikling",
