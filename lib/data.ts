@@ -66,6 +66,20 @@ export const worksData = [
     imageUrl: "/images/oblinor.gif",
   },
   {
+    title: "BB Utvikling",
+    description:
+      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+    tags: ["Vue js", "SCSS", "HTML", "Figma"],
+    imageUrl: "/images/bbutvikling.gif",
+  },
+  {
+    title: "Oblinor backoffice dashboard",
+    description:
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["Vue js", "TypeScript", "Vuetify", "SCSS", "Figma"],
+    imageUrl: "/images/figma-sketch.gif",
+  },
+  {
     title: "Oblinor AS",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
@@ -80,21 +94,6 @@ export const worksData = [
       "Figma",
     ],
     imageUrl: "/images/oblinor-mypage.gif",
-  },
-  {
-    title: "BB Utvikling",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["Vue js", "SCSS", "HTML", "Figma"],
-    imageUrl: "/images/bbutvikling.gif",
-  },
-
-  {
-    title: "Oblinor backoffice dashboard",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["Vue js", "TypeScript", "Vuetify", "SCSS", "Figma"],
-    imageUrl: "/images/trans.gif",
   },
 ] as const;
 

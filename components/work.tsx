@@ -23,17 +23,12 @@ export default function Work({
         ease: [0.04, 0.62, 0.23, 0.98],
       }}
     >
-      <div
-        style={{
-          width: "100%",
-          maxHeight: "400px",
-        }}
-      >
+      <div className="image-mobile">
         <Image
           className="rounded-t-lg "
           src={imageUrl}
           width={500}
-          height={400}
+          height={500}
           objectFit="cover"
           alt={title}
         />
