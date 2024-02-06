@@ -17,9 +17,12 @@ export default function Works() {
           </h1>
         </div>
 
-        <p className="text-xl mb-8 mt-4 md:w-[600px]">
-          A look at what I have done while we continue to imagine the things I
-          can do
+        <p className="text-xl mb-8 mt-4 md:w-[800px]">
+          Check out my work page! I highlight my frontend, backend, and UI/UX
+          design projects. I have worked on a variety of projects, from small to
+          large web applications. I am passionate about creating beautiful,
+          user-friendly interfaces and writing clean, maintainable code. I am
+          always looking for new opportunities to learn and grow as a developer.
         </p>
         <div className="grid md:grid-cols-2 gap-2">
           {worksData.map((project, index) => (
