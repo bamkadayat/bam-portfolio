@@ -3,34 +3,46 @@ import React from "react";
 import Image from "next/image";
 import { FaLaptopCode } from "react-icons/fa6";
 import { IoMdDownload } from "react-icons/io";
+import { motion } from "framer-motion";
 
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import Link from "next/link";
 
 export default function Intro() {
+  const textName = "I'm Bam Kadayat";
   return (
     <div className="container">
       <div className="grid md:grid-cols-2 items-center justify-between gap-1 page-margin">
         <div>
           <h1 className="text-3xl text-[#FFA324] mb-2">Hello,</h1>
-          <h1
-            tabIndex={0}
-            className="md:text-5xl text-4xl font-bold uppercase tracking-normal leading-normal font-sans"
-          >
-            I am Bam Kadayat.
-          </h1>
+          {textName.split("").map((letter, index) => (
+            <motion.span
+              key={index}
+              initial={{ opacity: 1 }}
+              animate={{ opacity: 0 }}
+              transition={{
+                duration: 3,
+                repeat: Infinity,
+                delay: index * 0.1,
+              }}
+              tabIndex={0}
+              className="md:text-5xl text-4xl font-bold uppercase tracking-normal leading-normal font-sans w-[600px]"
+            >
+              {letter}
+            </motion.span>
+          ))}
 
           <div>
-            <p className="mt-4 flex items-center">
+            <p className="my-8 flex items-center">
               <span>
                 <FaLaptopCode className="mr-4" size={60} />
               </span>
-              <span className="md:text-3xl text-2xl uppercase tracking-normal leading-normal font-sans">
-                Front-end, <br /> UI/UX developer
+              <span className="md:text-3xl text-2xl uppercase tracking-wide font-sans">
+                Front-end, UI/UX developer
               </span>
             </p>
-            <div className=" md:grid md:grid-cols-2 grid grid-cols-1 mt-6 gap-4 md:w-[400px]">
+            <div className=" md:grid md:grid-cols-2 grid grid-cols-1 gap-4 md:w-[400px]">
               <button className="bg-transparent hover:bg-[#FFA324] text-white-700 font-semibold hover:text-white py-2 px-4 border border-[#FFA324] hover:border-transparent rounded uppercase whitespace-nowrap">
                 <Link
                   href={`/contact`}
