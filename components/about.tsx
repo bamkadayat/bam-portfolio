@@ -23,9 +23,7 @@ export default function About() {
           className="flex flex-col md:flex-row items-center justify-between "
         >
           <p className="text-xl mb-8 mt-4 md:w-[600px]">
-            Hello, I am Bam Kadayat. As a front-end and UI/UX developer, I
-            specialize in designing and building web applications that offer
-            engaging user experiences and seamless functionality.
+          Hi, {" I'm "} Bam Kadayat, a front-end and UI/UX developer. I specialize in designing and building web applications that deliver engaging user experiences with smooth, seamless functionality.
           </p>
           <Image
             src="/images/profile.svg"

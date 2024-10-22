@@ -50,9 +50,22 @@ export const experiencesData = [
 
 export const worksData = [
   {
+    title: "Vyver group",
+    description:
+      "It is the branding and marketing website for a company that sells products for the home and garden.",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Framer Motion",
+      "Figma",
+    ],
+    imageUrl: "/images/vyver-group.gif",
+  },
+  {
     title: "Oblinor AS",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Crowdlending platform for real estate. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: [
       "Vue js",
       "TypeScript",
@@ -68,21 +81,21 @@ export const worksData = [
   {
     title: "BB Utvikling",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "It is property sale company.",
     tags: ["Vue js", "SCSS", "HTML", "Figma"],
     imageUrl: "/images/bbutvikling.gif",
   },
   {
     title: "Oblinor backoffice dashboard",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Oblinor backoffice dashboard for managing the platform. I was the front-end developer.",
     tags: ["Vue js", "TypeScript", "Vuetify", "SCSS", "Figma"],
     imageUrl: "/images/figma-sketch.gif",
   },
   {
     title: "Oblinor AS",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Oblinor customer dashboard for managing the platform. I was the front-end developer.",
     tags: [
       "Vue js",
       "TypeScript",
