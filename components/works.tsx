@@ -18,7 +18,7 @@ export default function Works() {
         </div>
 
         <p className="text-xl mb-8 mt-4 md:w-[800px]">
-        Welcome to my work page! Here, you’ll find my frontend, backend, and UI/UX design projects. I've worked on everything from small to large web applications, focusing on creating beautiful, user-friendly interfaces and writing clean, maintainable code. I'm always eager to learn and grow as a developer!
+        Welcome to my work page! Here, {"you’ll"} find my frontend, backend, and UI/UX design projects. {"I've"} worked on everything from small to large web applications, focusing on creating beautiful, user-friendly interfaces and writing clean, maintainable code. {"I'm"} always eager to learn and grow as a developer!
         </p>
         <div className="grid md:grid-cols-2 gap-2">
           {worksData.map((project, index) => (
