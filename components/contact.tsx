@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 
 import { motion } from "framer-motion";
 import { sendEmail } from "@/actions/sendEmail";
@@ -9,6 +9,10 @@ import { MdContactMail } from "react-icons/md";
 
 export default function Contact() {
   const [message, setMessage] = useState<string | null>(null);
+  
+  const emailRef = useRef<HTMLInputElement>(null);
+  const messageRef = useRef<HTMLTextAreaElement>(null);
+
   return (
     <motion.section
       initial={{
@@ -38,9 +42,15 @@ export default function Contact() {
 
           if (error) {
             setMessage(error);
+          } else {
+            setMessage("Email sent successfully!");
+            
+            // Clear the input fields after successful submission
+            if (emailRef.current && messageRef.current) {
+              emailRef.current.value = "";
+              messageRef.current.value = "";
+            }
           }
-
-          setMessage("Email sent successfully!");
         }}
       >
         <input
@@ -50,6 +60,7 @@ export default function Contact() {
           required
           maxLength={100}
           placeholder="Your email"
+          ref={emailRef} 
         />
         <textarea
           className="h-52 my-3 text-gray-900 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
@@ -57,6 +68,7 @@ export default function Contact() {
           placeholder="Your message"
           required
           maxLength={1000}
+          ref={messageRef} 
         />
         <SubmitBtn />
       </form>
